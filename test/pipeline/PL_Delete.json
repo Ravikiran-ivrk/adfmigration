@@ -1,0 +1,36 @@
+{
+	"name": "PL_Delete",
+	"properties": {
+		"description": "To delete the data",
+		"activities": [
+			{
+				"name": "Delete1",
+				"type": "Delete",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "DS_Delete",
+						"type": "DatasetReference"
+					},
+					"enableLogging": false,
+					"storeSettings": {
+						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
+						"enablePartitionDiscovery": false
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-11-02T21:32:24Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LS_onprem_SQL_Server",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-QIB58HT5\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Ravi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhZDNhNjg2Ny00ZDE4LTQ4NDItOTBkNS1kOTkwNDliMzllYjMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

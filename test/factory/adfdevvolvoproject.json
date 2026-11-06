@@ -1,0 +1,15 @@
+{
+	"name": "adfdevvolvoproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f103bc13-afd5-4ec3-af4f-8f7a6c221740",
+		"tenantId": "ce5dda2b-43a9-4d60-bb0a-6d9a5b59be63"
+	}
+}

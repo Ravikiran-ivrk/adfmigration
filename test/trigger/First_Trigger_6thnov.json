@@ -1,0 +1,25 @@
+{
+	"name": "First_Trigger_6thnov",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_ADLS_SOURCE_TRIGGER_TO_ADLS_SINK_TRIGGER",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-06T18:35:00",
+				"endTime": "2026-11-07T12:58:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

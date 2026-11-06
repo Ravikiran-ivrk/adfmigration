@@ -1,0 +1,18 @@
+{
+	"name": "DS_Delete",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Delete",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "outputparquet"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
