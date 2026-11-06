@@ -1,0 +1,177 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevvolvoproject"
+		},
+		"LS_Delete_accountKey": {
+			"value": ""
+		},
+		"LS_Json1_accountKey": {
+			"value": ""
+		},
+		"LS_Restapi_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_TRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_TRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TABLE_password": {
+			"value": ""
+		},
+		"LS_SqlServerTable1_password": {
+			"value": ""
+		},
+		"LS_Sqlserver_Table1_accountKey": {
+			"value": ""
+		},
+		"LS_eventip_accountKey": {
+			"value": ""
+		},
+		"LS_eventop_accountKey": {
+			"value": ""
+		},
+		"LS_getmetadata_accountKey": {
+			"value": ""
+		},
+		"LS_lookup_accountKey": {
+			"value": ""
+		},
+		"LS_onprem_SQL_Server_password": {
+			"value": ""
+		},
+		"LS_sqlserver_lookup_password": {
+			"value": ""
+		},
+		"RS_getmetadata_accountKey": {
+			"value": ""
+		},
+		"ks_getmetadata_accountKey": {
+			"value": ""
+		},
+		"vs_getmetadata_password": {
+			"value": ""
+		},
+		"LS_Delete_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_Json1_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_RestAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_Restapi_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_SINK_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_SINK_TRIGGER_properties_typeProperties_url": {
+			"value": "https://adlsdevsinktrigger.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_TRIGGER_properties_typeProperties_url": {
+			"value": "https://adlsdevsourcetrigger.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_TABLE_properties_typeProperties_server": {
+			"value": "LAPTOP-QIB58HT5\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TABLE_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SQLSERVER_TABLE_properties_typeProperties_userName": {
+			"value": "Ravi"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_server": {
+			"value": "LAPTOP-QIB58HT5\\SQLEXPRESS"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_userName": {
+			"value": "Ravi"
+		},
+		"LS_Sqlserver_Table1_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkravi.dfs.core.windows.net/"
+		},
+		"LS_eventip_properties_typeProperties_url": {
+			"value": "https://adlsdevsourcetrigger.dfs.core.windows.net/"
+		},
+		"LS_eventop_properties_typeProperties_url": {
+			"value": "https://adlsdevsinktrigger.dfs.core.windows.net/"
+		},
+		"LS_getmetadata_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"LS_lookup_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"LS_onprem_SQL_Server_properties_typeProperties_server": {
+			"value": "LAPTOP-QIB58HT5\\SQLEXPRESS"
+		},
+		"LS_onprem_SQL_Server_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_onprem_SQL_Server_properties_typeProperties_userName": {
+			"value": "Ravi"
+		},
+		"LS_sqlserver_lookup_properties_typeProperties_server": {
+			"value": "LAPTOP-QIB58HT5\\SQLEXPRESS"
+		},
+		"LS_sqlserver_lookup_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_sqlserver_lookup_properties_typeProperties_userName": {
+			"value": "Ravi"
+		},
+		"RS_getmetadata_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"ks_getmetadata_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceravi.dfs.core.windows.net/"
+		},
+		"vs_getmetadata_properties_typeProperties_server": {
+			"value": "LAPTOP-QIB58HT5\\SQLEXPRESS"
+		},
+		"vs_getmetadata_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"vs_getmetadata_properties_typeProperties_userName": {
+			"value": "Ravi"
+		},
+		"first_event_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/ba5f5215-5fc7-4285-a59a-23650b1ea16d/resourceGroups/rgdevvolvoproject/providers/Microsoft.Storage/storageAccounts/adlsdevsourcetrigger"
+		}
+	}
+}
