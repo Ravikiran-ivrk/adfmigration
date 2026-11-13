@@ -1,0 +1,22 @@
+{
+	"name": "LS_SQLSERVER_LOOKUP_TABLE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "My First migration project in the adf",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-QIB58HT5\\SQLEXPRESS",
+			"database": "Sqlmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Ravi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2YTNhODlkZS04ZTk5LTQ4ZGQtYWI3Yi0yMTNhZjYzN2U5YWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2-volvocarsmigration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

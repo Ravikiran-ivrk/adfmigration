@@ -1,0 +1,15 @@
+{
+	"name": "adfvolvocarsmigration",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bc83dd90-1f62-4743-8abf-dc6f6da6b668",
+		"tenantId": "ce5dda2b-43a9-4d60-bb0a-6d9a5b59be63"
+	}
+}

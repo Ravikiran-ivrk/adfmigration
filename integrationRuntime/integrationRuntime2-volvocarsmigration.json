@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime2-volvocarsmigration",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/ba5f5215-5fc7-4285-a59a-23650b1ea16d/resourcegroups/rgdevvolvoproject/providers/Microsoft.DataFactory/factories/adfdevvolvoproject/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

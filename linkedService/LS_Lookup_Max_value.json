@@ -1,0 +1,21 @@
+{
+	"name": "LS_Lookup_Max_value",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-QIB58HT5\\SQLEXPRESS",
+			"database": "Sqlmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Ravi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhYTkxNTA5My1lYmQ3LTQ0M2EtYmFiMC0wNWE3ZmRlY2Q3OTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2-volvocarsmigration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
